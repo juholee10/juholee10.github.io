@@ -3,7 +3,7 @@ title: "A Guide to Complex Numbers"
 collection: publications
 category: math_resources
 permalink: /publication/2026-complex-numbers-guide
-date: 2026-07-21
+date: 2026-08-31
 venue: '<a href="https://math-mentors.org">Math Mentors</a>'
 paperurl: '/files/complex-numbers.pdf'
 excerpt: 'A complete walkthrough of complex numbers up to the precalculus level, with practice problems.'
