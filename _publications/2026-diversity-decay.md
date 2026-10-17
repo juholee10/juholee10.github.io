@@ -1,10 +1,10 @@
 ---
 title: "Modeling Diversity Decay in Synthetic Retraining"
 collection: publications
-category: preprints
+category: manuscripts
 permalink: /publication/2026-diversity-decay
 date: 2026-09-01
-venue: 'Under review'
+venue: 'Under review in the <a href="https://journaljyi.org">Journal of Youth Impact</a>'
 paperurl: # TODO(juho): arXiv or PDF link (if you add files/diversity-decay.pdf, use /files/diversity-decay.pdf)
 excerpt: 'How diversity is lost when models retrain on their own synthetic data, and why common metrics can miss it.'
 ---
