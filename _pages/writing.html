@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Writing"
+permalink: /writing/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign writing = site.writing | sort: "date" | reverse %}
+{% for post in writing %}
+  {% include archive-single.html %}
+{% endfor %}

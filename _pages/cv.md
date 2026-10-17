@@ -9,56 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)]({{ base_path }}/files/cv.pdf) <!-- TODO(juho): add files/cv.pdf -->
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* High school student, international school in Seoul, South Korea
+  * TODO(juho): school name and expected graduation year
 
-Work experience
+Research
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Seoul Research Program, mentored by Professor Haifeng Xu (University of Chicago)
+  * TODO(juho): program dates
+  * "[Modeling Diversity Decay in Synthetic Retraining]({{ base_path }}/publication/2026-diversity-decay)" (2026, under review)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Projects
+======
+* [Math Mentors](https://github.com/juholee10/math-mentors): a student-run volunteer organization that writes free LaTeX-typeset math guides
+  * TODO(juho): your role and dates
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+Awards
+======
+* TODO(juho): awards, if any
+
+Activities
+======
+* TODO(juho): activities
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* TODO(juho): skills (e.g. programming languages, tools)
