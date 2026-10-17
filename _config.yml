@@ -84,10 +84,8 @@ author:
 publication_category:
   manuscripts:
     title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-  preprints:
-    title: 'Preprints and Papers Under Review'
+  math_resources:
+    title: 'Math Resources'
 
 # Site Settings
 teaser                   :
@@ -95,7 +93,6 @@ breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
-talkmap_link             : false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -123,7 +120,7 @@ staticman:
       options:
         format           : "iso8601"
 atom_feed:
-  hide                   : false
+  hide                   : true
   path                   :
 
 
@@ -276,23 +273,6 @@ defaults:
       read_time: true
       share: true
       comments: false
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: false
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS

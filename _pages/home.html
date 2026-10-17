@@ -1,0 +1,32 @@
+---
+layout: archive
+title: "Juho Lee"
+permalink: /
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>Publications</h2><hr />
+{% for category in site.publication_category %}
+  {% assign posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% if posts.size > 0 %}
+    <h3>{{ category[1].title }}</h3>
+    {% for post in posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+<h2>Projects</h2><hr />
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% assign writing = site.writing | sort: "date" | reverse %}
+{% if writing.size > 0 %}
+<h2>Writing</h2><hr />
+{% for post in writing %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
