@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"   # upload your photo to images/profile.png, or leave blank
   name             : "Juho Lee"
   pronouns         :
-  bio              : 
+  bio              : "High school student"
   location         : "Seoul, South Korea"
-  employer         :                 # e.g. your school name, or leave blank
+  employer         : "Seoul Academy Upper Division"               # e.g. your school name, or leave blank
   uri              :
-  email            :                 # add a contact email if you want one shown
+  email            : "legorjuho@gmail.com"
 
   # Academic websites
   academia         :
