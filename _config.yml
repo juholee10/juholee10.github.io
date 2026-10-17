@@ -279,6 +279,8 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+  # Hide deprecation warnings from the theme's older Sass code (output is unaffected)
+  silence_deprecations: [import, global-builtin, if-function, color-functions]
 
 
 # Outputting
