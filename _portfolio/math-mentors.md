@@ -1,6 +1,7 @@
 ---
 title: "Math Mentors"
 collection: portfolio
+period: "September 2026"
 excerpt: "A student-run volunteer organization that writes free LaTeX-typeset math guides."
 ---
 
